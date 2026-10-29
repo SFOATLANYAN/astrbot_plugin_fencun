@@ -1,7 +1,0 @@
-name: astrbot_plugin_gate
-display_name: 反应闸
-desc: 只管怎么说（分轻重/收口/转换/带棱角），群里能认人，回复分条发；「口碑」记归属与可信，否认要和行为对得上，被骗多了会变世故。
-version: 0.11.0
-author: 大肥鱼
-repo: ""
-astrbot_version: ">=4.18.2"
