@@ -1,0 +1,7 @@
+name: astrbot_plugin_fencun
+display_name: 分寸 Fencun
+desc: 让 AI 有分寸——用约束做人格，而不是让 AI 演人设。
+version: 0.24.0
+author: SFOATLANYAN
+repo: "https://github.com/SFOATLANYAN/astrbot_plugin_fencun"
+astrbot_version: ">=4.18.2"

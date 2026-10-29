@@ -1,0 +1,37 @@
+{
+  "enabled": {
+    "type": "bool",
+    "default": true,
+    "description": "总开关：关掉就完全不注入"
+  },
+  "tier_thin": {
+    "type": "int",
+    "default": 1,
+    "description": "闲聊最多几句"
+  },
+  "tier_normal": {
+    "type": "int",
+    "default": 3,
+    "description": "平常最多几句"
+  },
+  "tier_worth": {
+    "type": "int",
+    "default": 5,
+    "description": "值得展开最多几句"
+  },
+  "tighten_after": {
+    "type": "int",
+    "default": 1,
+    "description": "上一轮犯几次，这一轮开始收紧（1=犯一次就收）"
+  },
+  "judge_enabled": {
+    "type": "bool",
+    "default": false,
+    "description": "启用判定器：用已配置的模型判「有没有在派任务」（每轮多一次调用）"
+  },
+  "judge_provider_id": {
+    "type": "string",
+    "default": "",
+    "description": "判定器用的模型提供商（留空=默认提供商）"
+  }
+}
