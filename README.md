@@ -37,6 +37,8 @@
 
 ## 🛠️ 快速开始（Installation）
 
+powershell -NoProfile -ExecutionPolicy Bypass -File .\install.ps1
+
 **AstrBot（QQ 群）**
 将本仓库丢进 AstrBot 插件目录，重启即可。纯标准库，无额外依赖。
 
